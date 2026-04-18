@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "azurerm" {
+
   features {}
 }
-
-#credential not give here because we  dont push credential (secretes to github)
